@@ -1,0 +1,295 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main {
+    width: 1200px;
+    max-width: 1000px;
+    margin: 0px auto;
+}
+#header {
+    background-image: url();
+    background-size: 100% 100%;
+    height: 0px;
+    padding-bottom: 25%;
+    position: relative;
+}
+/* SLIDER */
+#menu { 
+    width: 100%;
+    height: 46px;
+    background-color: red;
+    list-style-type: none;
+    display: inline-flex;
+}
+#menu li a {
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+}
+/* #menu li a:hover{
+    color: gold;
+    
+} */
+#menu li a:hover::after {
+    transform: scale(1);
+
+}
+#menu li a::after {
+    content: " ";
+    display: block;
+    height: 2px;
+    background-color: #fff;
+    margin-top: -4px;
+    transform: scale(0);
+    transition: all 0.5s;
+    
+}
+#menu li {
+    padding: 15px;
+}
+.contact {
+    margin-left: 255px;
+    line-height: 46px;
+}
+.search-icon {
+    font-size: 17px;
+    font-weight: 900;
+}
+.search {
+    border: none;
+    border-radius: 2px;
+}
+/* CONTENT */
+#content {
+    display: flex;
+}
+.right {
+    flex: 2;
+}
+.right h2 {
+    padding: 25px 65px;
+}
+
+.all {
+    display: flex;
+}
+.child-all {
+    border: solid 3px black;
+    width:40%;
+    margin-bottom: 25px;
+}
+.child-all p {
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+.ti-arrow-right {
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: 20px;
+}
+.child-all2 {
+    border: solid 3px black;
+    width:40%;
+    margin-left: 50px;
+    margin-top: 20px;
+    text-align: center;
+}
+.left {
+    flex: 1;
+}
+#menu-left {
+    margin-top:30px;
+    padding-left: 50px;
+    cursor: pointer;
+}
+#menu-left h2 {
+    background: #f00;
+    border-radius: 3px;
+    padding: 3px 7px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-style: normal;
+    width: 92%;
+    margin-bottom: 15px;
+}
+#menu-left li {
+    padding: 5px 0;
+    font-size: 18px;
+}
+#menu-left li:hover {
+    color: red;
+}
+.border {
+    border-bottom: solid 2px #ccc;
+    margin-left: 40px;
+}
+
+.left-img {
+    height: 170px;
+    margin-left: 50px;
+    padding-top: 20px;
+}
+.border2 {
+    margin-top: 35px;
+    border-top: 3px solid #ccc;
+}
+#fooder {
+    margin-top: 25px;
+    background-color: #058;
+    background-image: url();
+    height: 180px;
+    display: flex;
+    text-align: center;
+    padding: 20px 160px;
+}
+.thongtin {
+    padding: 0 20px;
+}
+.thongtin h3,
+.thongtin1 h3
+{
+    color: gold;
+    font-family: sans-serif;
+}
+.thongtin p, .thongtin1 p {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 13px; 
+    padding: 3px 0;
+}
+
+.thongtin1 {
+    margin-left: 25px;
+}
+
+/* PHẦN GIỚI THIỆU */
+.gt-right {
+    display: flex;
+}
+.gt-img1 {
+    display: inline-block;
+    padding: 10px 0;
+}
+.gt-img2 {
+    padding: 15px 0;
+}
+.gt-content p {
+    padding: 7px 18px;
+    text-align: justify;
+}
+
+.content-2 {
+    display: flex;
+}
+
+.gt-content2 {
+    padding: 10px 18px;
+    text-align: justify;
+}
+.gt-content2 p {
+    padding: 5px;
+}
+
+.tt-content {
+    display: inline-block;
+    padding: 20px 0;
+}
+.tt-img {
+    display: flex;
+    padding: 10px 0;
+    text-align: justify;
+    line-height: 1.2;
+}
+.tt-content2 {
+    padding: 0 15px;
+}
+.left img {
+    height: 200px;
+    margin-left: 50px;
+    padding: 5px 0;
+}
+.left p {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+.thieu {
+    height: 160px;
+}
+.map {
+    padding: 30px 0;
+}
+
+
+.tieude {
+    padding: 0 15px;
+}
+.father {
+    padding: 20px 15px;
+}
+
+.all {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.khung {
+    display: flex;
+    padding: 15px 0;
+}
+
+.nav-khung {
+    padding: 10px;
+    margin-left: 100px;
+}
+
+.nav-khung1 {
+    padding: 10px;
+    margin-left: 130px;
+}
+.nav-khung2 {
+    padding: 10px;
+    margin-left: 115px;
+}
+
+.sub-khung {
+    padding: 45px;
+    margin-left: 100px;
+}
+
+.tom {
+    margin-left: 176px;
+    color: #fff;
+    background-color: #009cd7;
+    font-size: 13px;
+    padding: 7px 75px;
+    border: none;
+    cursor: pointer;
+}
+.tom:hover {
+    background-color: #ccc;
+    color: #000;
+}
+.die {
+    display: flex;
+}
+.trai {
+    flex: 2;
+}
+.phai {
+    flex: 1;
+}
+.phai h2 {
+    font-family: sans-serif;
+}
+.phai p {
+    padding: 3px 0;
+    font-weight: 600;
+}
